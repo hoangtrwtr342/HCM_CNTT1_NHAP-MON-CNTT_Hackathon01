@@ -13,8 +13,11 @@
 ```shell
 pwd 
 ls 
-cp '.\Huong_dan_cham_soc .txt\' docs\
-cp '.\Logo_Nha_khoa.PNG\' media\
+
+mv huong_dan_cham_soc.txt docs/
+mv logo_nha_khoa.png media/
+cp media/logo_nha_khoa.png backup/
+rm temp_226.tmp
 ..\starter-kit\logs
 ls
 cd ..\
